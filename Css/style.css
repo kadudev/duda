@@ -1,0 +1,84 @@
+
+* {margin: 0%; padding: 0%; font-size: 100%; border: none; outline: none; font-weight: 300%; box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body { 
+    background-color: rgb(138, 235, 109);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+overflow-x: hidden;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+
+
+.cabeçalho {width: 100%; float: left; padding: 3% 4%;}
+.logo {width: 56px; height: 56px; float: left; background: url(../ImagemViolao/LogoEsquerda.png) center center/56px no-repeat;
+font-size: 0;}
+
+main{
+    height: 85vh;
+    flex: 1;
+}
+.isVisible{
+    display: none;
+}
+.isVisible{
+    display: none;
+}
+
+.btn-menu{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgb(252, 252, 252);
+    float: right;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    float: right;
+    margin: 3px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.violao {width: 100%; float: left; padding: 2% 4%;}
+.viola {width: 100%; background-color: rgb(255, 255, 255); text-align: left; border-radius: 7px; margin-bottom: 8%;}
+.viola img {border-radius: 7px 7px 0 0;}
+.inner {padding: 7%;}
+.inner a {font-size: 1.5em; color: rgb(0, 0, 0); font-weight: 700;}
+.inner h2 {font-size: 1.2em; color: rgb(0, 0, 0); margin-top: 2%;}
+.inner p { margin-top: 6%; color: rgb(0, 0, 0); line-height: 1.5em;}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+        height: 36px;
+}
+
+footer{
+    font-size: 14px;
+    height: auto;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);}

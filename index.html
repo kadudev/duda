@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Duda Violões </title>
+    <link rel="stylesheet" href="Css/Style.css" media="all" />
+    <link rel="stylesheet" href="Css/media query.css" />
+    <link rel="shortcut icon" href="ImagemViolao/ImagemSite.png" type="image/x-icon" />
+    
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="menu" id="menu">
+            <div class="btn-menu"><img src="ImagemViolao/ImagemBotao.png" alt="" height="48px"></div>
+        </div>
+        <a href="index.html"><h1 class="logo"> Violao</h1>
+
+        <div class="isVisible" id="escolhas">
+            <nav>
+            <ul>
+                <li><a href="index.html">Violon</a></li>
+                <li><a href="https://www.youtube.com/watch?v=U8h0XCPkEnE">Acordes do Violão</a></li>
+                <li><a href="https://fjsp.org.br/musica-no-castelo-camilo-carrara/#:~:text=A%20história%20do%20violão%20nos,cordas%20tripas%20de%20carneiro%20esticadas.">História sobre a criação do violão</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main class="violao">
+        <article class="viola">
+            <a href="#"><img src="ImagemViolao/MeninaViolao.png" alt="Bon Marché"></a>
+            <div class="inner">
+                <a href="#"> Violon </a>
+                <h2>Sem a música nossa vida seria um erro</h2>
+                <p> Toque com seu coração, seja feliz enquanto cante e sinta cada acorde como você sente a batida do seu coração.
+                </p>
+            </div>
+
+        </article>
+    </main>
+    <footer>
+        <script>
+            const menu= document.getElementById('menu');
+            const opcoes= document.getElementById('escolhas');
+    
+            menu.addEventListener('click', ()=>{
+                opcoes.classList.toggle('isVisible');
+            })
+        </script>
+                <center>  <p>&copy; Duda Violões - Todas as imagens usadas foram licenciadas por seus devidos usuários
+
+        <center>   <p>Abaixo minhas redes sociais:</p> </center>
+           <ul>
+               <li><a href="https://twitter.com/kliaduda">Twitter</a></li>
+               <li><a href="https://www.instagram.com/kliaduda/">Instagram</a></li>
+           </ul>
+           </p> </center>
+       </footer>
+</body>
+</html>
